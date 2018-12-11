@@ -1,0 +1,5 @@
+ffd9e48ca787ebdec3f66e6f602da647  usr/lib/nginx/modules/ndk_http_module.so
+43a55000133f63fc02805d1f30121878  usr/share/doc/libnginx-mod-http-ndk/changelog.Debian.gz
+623a9d98ebd7b9bf39f6b5da8b84f1b4  usr/share/doc/libnginx-mod-http-ndk/changelog.gz
+f89bef9fa1d22af419e5154ad3966930  usr/share/doc/libnginx-mod-http-ndk/copyright
+fe88c865d2db6ad7499c3ebdafe059df  usr/share/nginx/modules-available/mod-http-ndk.conf

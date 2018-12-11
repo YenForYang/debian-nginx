@@ -1,0 +1,12 @@
+Package: libnginx-mod-http-ndk-dbgsym
+Source: nginx
+Version: 1.14.1-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 44
+Depends: libnginx-mod-http-ndk (= 1.14.1-2)
+Section: debug
+Priority: optional
+Description: debug symbols for libnginx-mod-http-ndk
+Build-Ids: 6a20f6d08737011f10498c8ee30f2034a8581c29

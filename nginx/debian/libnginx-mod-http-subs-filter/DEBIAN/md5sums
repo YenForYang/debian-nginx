@@ -1,0 +1,5 @@
+61a1845bfc374e7cbc85d86cb3f21e58  usr/lib/nginx/modules/ngx_http_subs_filter_module.so
+43a55000133f63fc02805d1f30121878  usr/share/doc/libnginx-mod-http-subs-filter/changelog.Debian.gz
+623a9d98ebd7b9bf39f6b5da8b84f1b4  usr/share/doc/libnginx-mod-http-subs-filter/changelog.gz
+f89bef9fa1d22af419e5154ad3966930  usr/share/doc/libnginx-mod-http-subs-filter/copyright
+d298f8f90184a07c4bf8859a53aa2c14  usr/share/nginx/modules-available/mod-http-subs-filter.conf

@@ -1,0 +1,16 @@
+Package: libnginx-mod-stream
+Source: nginx
+Version: 1.14.1-2
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 432
+Depends: nginx-common (= 1.14.1-2), libc6 (>= 2.14), libgcc1 (>= 1:3.0)
+Section: httpd
+Priority: optional
+Homepage: https://nginx.net
+Description: Stream module for Nginx
+ The nginx_stream module adds stream proxy support to nginx.
+ .
+ Stream module supports loadbalancing & proxying to TCP servers. The module
+ also supports ACLs/connection limiting and configuring multiple operational
+ parameters.

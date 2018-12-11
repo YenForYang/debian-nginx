@@ -1,0 +1,12 @@
+Package: libnginx-mod-http-lua-dbgsym
+Source: nginx
+Version: 1.14.1-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 821
+Depends: libnginx-mod-http-lua (= 1.14.1-2)
+Section: debug
+Priority: optional
+Description: debug symbols for libnginx-mod-http-lua
+Build-Ids: 62febabb80ee2ce9ed71f486a7f13e5070f80acf

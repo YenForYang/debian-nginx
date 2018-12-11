@@ -1,0 +1,12 @@
+Package: libnginx-mod-stream-dbgsym
+Source: nginx
+Version: 1.14.1-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 201
+Depends: libnginx-mod-stream (= 1.14.1-2)
+Section: debug
+Priority: optional
+Description: debug symbols for libnginx-mod-stream
+Build-Ids: af449b90d670c790d678c9b6f9fe3e4f81955208

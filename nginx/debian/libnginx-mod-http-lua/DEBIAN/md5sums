@@ -1,0 +1,5 @@
+7df27986631dd4c2659b2712b7acea74  usr/lib/nginx/modules/ngx_http_lua_module.so
+43a55000133f63fc02805d1f30121878  usr/share/doc/libnginx-mod-http-lua/changelog.Debian.gz
+623a9d98ebd7b9bf39f6b5da8b84f1b4  usr/share/doc/libnginx-mod-http-lua/changelog.gz
+f89bef9fa1d22af419e5154ad3966930  usr/share/doc/libnginx-mod-http-lua/copyright
+2933cf9bcab7f5352d6357533213e14d  usr/share/nginx/modules-available/mod-http-lua.conf

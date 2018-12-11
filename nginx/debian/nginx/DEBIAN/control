@@ -1,0 +1,16 @@
+Package: nginx
+Version: 1.14.1-2
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 97
+Depends: nginx-full (<< 1.14.1-2.1~) | nginx-light (<< 1.14.1-2.1~) | nginx-extras (<< 1.14.1-2.1~), nginx-full (>= 1.14.1-2) | nginx-light (>= 1.14.1-2) | nginx-extras (>= 1.14.1-2)
+Section: httpd
+Priority: optional
+Homepage: https://nginx.net
+Description: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This is a dependency package to install either nginx-full (by default),
+ nginx-light or nginx-extras.

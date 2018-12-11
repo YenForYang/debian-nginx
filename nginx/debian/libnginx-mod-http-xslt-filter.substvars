@@ -1,0 +1,3 @@
+misc:Depends=nginx-common (= ${source:Version})
+shlibs:Depends=libc6 (>= 2.4), libgcc1 (>= 1:3.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.26)
+misc:Pre-Depends=

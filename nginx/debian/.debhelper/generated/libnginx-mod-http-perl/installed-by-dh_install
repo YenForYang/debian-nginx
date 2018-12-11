@@ -1,0 +1,2 @@
+./debian/build-extras/objs/src/http/modules/perl/blib/arch/auto/nginx/nginx.so
+./debian/build-extras/objs/src/http/modules/perl/blib/lib/nginx.pm

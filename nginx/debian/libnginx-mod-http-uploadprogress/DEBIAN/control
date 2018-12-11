@@ -1,0 +1,17 @@
+Package: libnginx-mod-http-uploadprogress
+Source: nginx
+Version: 1.14.1-2
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 208
+Depends: nginx-common (= 1.14.1-2), libc6 (>= 2.14), libgcc1 (>= 1:3.0)
+Section: httpd
+Priority: optional
+Homepage: https://nginx.net
+Description: Upload progress system for Nginx
+ Upload progress module is an implementation of an upload progress system, that
+ monitors RFC1867 POST uploads as they are transmitted to upstream servers.
+ .
+ It works by tracking the uploads proxied by Nginx to upstream servers without
+ analysing the uploaded content and offers a web API to report upload progress
+ in Javscript, Json or any other format.

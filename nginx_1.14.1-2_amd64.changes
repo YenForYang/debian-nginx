@@ -1,0 +1,192 @@
+Format: 1.8
+Date: Thu, 06 Dec 2018 20:01:00 +0530
+Source: nginx
+Binary: nginx nginx-doc nginx-common nginx-full nginx-light nginx-extras libnginx-mod-http-geoip libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream libnginx-mod-http-perl libnginx-mod-http-auth-pam libnginx-mod-http-lua libnginx-mod-http-ndk libnginx-mod-nchan libnginx-mod-http-echo libnginx-mod-http-upstream-fair libnginx-mod-http-headers-more-filter libnginx-mod-http-cache-purge libnginx-mod-http-fancyindex libnginx-mod-http-uploadprogress libnginx-mod-http-subs-filter libnginx-mod-http-dav-ext libnginx-mod-rtmp
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64 all
+Version: 1.14.1-2
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Changed-By: Kartik Mistry <kartik@debian.org>
+Description:
+ libnginx-mod-http-auth-pam - PAM authentication module for Nginx
+ libnginx-mod-http-cache-purge - Purge content from Nginx caches
+ libnginx-mod-http-dav-ext - WebDAV missing commands support for Nginx
+ libnginx-mod-http-echo - Bring echo and more shell style goodies to Nginx
+ libnginx-mod-http-fancyindex - Fancy indexes module for the Nginx
+ libnginx-mod-http-geoip - GeoIP HTTP module for Nginx
+ libnginx-mod-http-headers-more-filter - Set and clear input and output headers for Nginx
+ libnginx-mod-http-image-filter - HTTP image filter module for Nginx
+ libnginx-mod-http-lua - Lua module for Nginx
+ libnginx-mod-http-ndk - Nginx Development Kit module
+ libnginx-mod-http-perl - Perl module for Nginx
+ libnginx-mod-http-subs-filter - Substitution filter module for Nginx
+ libnginx-mod-http-uploadprogress - Upload progress system for Nginx
+ libnginx-mod-http-upstream-fair - Nginx Upstream Fair Proxy Load Balancer
+ libnginx-mod-http-xslt-filter - XSLT Transformation module for Nginx
+ libnginx-mod-mail - Mail module for Nginx
+ libnginx-mod-nchan - Fast, flexible pub/sub server for Nginx
+ libnginx-mod-rtmp - RTMP support for Nginx
+ libnginx-mod-stream - Stream module for Nginx
+ nginx      - small, powerful, scalable web/proxy server
+ nginx-common - small, powerful, scalable web/proxy server - common files
+ nginx-doc  - small, powerful, scalable web/proxy server - documentation
+ nginx-extras - nginx web/proxy server (extended version)
+ nginx-full - nginx web/proxy server (standard version)
+ nginx-light - nginx web/proxy server (basic version)
+Closes: 915728
+Changes:
+ nginx (1.14.1-2) UNRELEASED; urgency=low
+ .
+   [ Kartik Mistry ]
+   * po/tr.po:
+     + Added Turkish translation. Thanks Atila KOÇ <koc@artielektronik.com.tr>
+       (Closes: #915728)
+Checksums-Sha1:
+ e718d5b054ec8a16acea20a50efba224634bcb13 28752 libnginx-mod-http-auth-pam-dbgsym_1.14.1-2_amd64.deb
+ 6509632a1573c3c8c1036d0a20d528f9073d8008 110952 libnginx-mod-http-auth-pam_1.14.1-2_amd64.deb
+ 11c851e6c9f71640306dd261323fa7cb92c172a2 32968 libnginx-mod-http-cache-purge-dbgsym_1.14.1-2_amd64.deb
+ bce5291d45a267f8fd8be7470476c13ff0af7231 110072 libnginx-mod-http-cache-purge_1.14.1-2_amd64.deb
+ 9fde2e17a1d8aa2a16602bf9f369e465a0cc2f32 31348 libnginx-mod-http-dav-ext-dbgsym_1.14.1-2_amd64.deb
+ 82afc830b48dd0b9ecdb888d717507ccef80090a 108140 libnginx-mod-http-dav-ext_1.14.1-2_amd64.deb
+ f71cb717d9ead448729954e1f7da120fc82d427e 136408 libnginx-mod-http-echo-dbgsym_1.14.1-2_amd64.deb
+ 1c26058d89c591825ddabe3fbdf9a0c143a64a04 126752 libnginx-mod-http-echo_1.14.1-2_amd64.deb
+ cd8628fe26ec3169456fbc83ad4ebd65dec92550 32924 libnginx-mod-http-fancyindex-dbgsym_1.14.1-2_amd64.deb
+ 795e946ed12de2e71223b2ed06b8ce4d6f958cc7 112204 libnginx-mod-http-fancyindex_1.14.1-2_amd64.deb
+ c0300f00c7c74c66bd2134599cd08998e708786c 29972 libnginx-mod-http-geoip-dbgsym_1.14.1-2_amd64.deb
+ 8b53a486314092af80662ae7c29632b4162f8247 107404 libnginx-mod-http-geoip_1.14.1-2_amd64.deb
+ 5d640ab0d290b387bdceb4658cb359c055685351 58312 libnginx-mod-http-headers-more-filter-dbgsym_1.14.1-2_amd64.deb
+ ba6e8eb7dd7c0b8267876c3f381019ac90c348ad 116220 libnginx-mod-http-headers-more-filter_1.14.1-2_amd64.deb
+ 0968eca6f5e62d5f2f709d30c1b6eca4607eb1d0 32560 libnginx-mod-http-image-filter-dbgsym_1.14.1-2_amd64.deb
+ 65a78cdb0d8ffdd26f455560754b918978add429 110840 libnginx-mod-http-image-filter_1.14.1-2_amd64.deb
+ a0ffdc8649ff7ce8587c7a7d5b96c32cbed7382f 732880 libnginx-mod-http-lua-dbgsym_1.14.1-2_amd64.deb
+ fd4d54baf58672a19974a2632328430e31273829 298980 libnginx-mod-http-lua_1.14.1-2_amd64.deb
+ 52766e42d3e88a8a3d7f58b9bc06aa1f152adfa9 30016 libnginx-mod-http-ndk-dbgsym_1.14.1-2_amd64.deb
+ f662c1fc8ff231a0d04f8ec2900b1e5dac627bd6 93488 libnginx-mod-http-ndk_1.14.1-2_amd64.deb
+ 4773822e2904aa2496e5e0c80f55ab83cd79f73d 118468 libnginx-mod-http-perl-dbgsym_1.14.1-2_amd64.deb
+ 6f044fce02b1806dfe7d1cbea4b127dd80dd39b8 119836 libnginx-mod-http-perl_1.14.1-2_amd64.deb
+ 755d49034b4b1c164076ac64515ec5d723b55917 32472 libnginx-mod-http-subs-filter-dbgsym_1.14.1-2_amd64.deb
+ 1b3bd8521b7998f0c5dadd8ce785f6e21703849f 111016 libnginx-mod-http-subs-filter_1.14.1-2_amd64.deb
+ 9fc00e91b980caf366881d354e9a9448eaf4004b 36280 libnginx-mod-http-uploadprogress-dbgsym_1.14.1-2_amd64.deb
+ 90eb1da6446ac2f8a72d24528aa2049126deac5e 114456 libnginx-mod-http-uploadprogress_1.14.1-2_amd64.deb
+ 232492b3dcc5bcd4b9b8414e23a0b40016189b89 31308 libnginx-mod-http-upstream-fair-dbgsym_1.14.1-2_amd64.deb
+ b39d605771c3a08373cb7e5a80c96245971082fb 96320 libnginx-mod-http-upstream-fair_1.14.1-2_amd64.deb
+ a911f0b6a563fb354e8652e0eb1a4f5ae5602005 42404 libnginx-mod-http-xslt-filter-dbgsym_1.14.1-2_amd64.deb
+ ea15de74f52deca58e11a07f1fa996231d62ebe5 96792 libnginx-mod-http-xslt-filter_1.14.1-2_amd64.deb
+ 76611da898bb0f63633a6110340c51af25fc9c57 92096 libnginx-mod-mail-dbgsym_1.14.1-2_amd64.deb
+ f854b00244d80005d680076b249adafc1e1ab705 143332 libnginx-mod-mail_1.14.1-2_amd64.deb
+ 17a29603e4e0b8a7572438e5d93f82ebd6372c5f 641640 libnginx-mod-nchan-dbgsym_1.14.1-2_amd64.deb
+ 09a8f11e2149754112be3896e7d86d5f64cb3dbf 305936 libnginx-mod-nchan_1.14.1-2_amd64.deb
+ 3071509c90ddd685fa966b8111959fe3becb7e28 282672 libnginx-mod-rtmp-dbgsym_1.14.1-2_amd64.deb
+ 234b94531c8eb99d8d4d225a72cb195f3ca39f90 256520 libnginx-mod-rtmp_1.14.1-2_amd64.deb
+ fd1448810c5203c7b94f7e8d7b483e07cbf7e9f3 161548 libnginx-mod-stream-dbgsym_1.14.1-2_amd64.deb
+ ed92d5922b88377a59c0489b754adc9377d2adc4 180688 libnginx-mod-stream_1.14.1-2_amd64.deb
+ b0a37762d7a5093b71cf0643d5dc0338f188165e 119860 nginx-common_1.14.1-2_all.deb
+ 2b7a4df05895c72dc0cd40c60969f81d60a7b9b7 87676 nginx-doc_1.14.1-2_all.deb
+ 792861786def4d6deb6fa56ea84bfaf5ec117d28 1655436 nginx-extras-dbgsym_1.14.1-2_amd64.deb
+ ffff0ac2d3c0d913425adc37961a44c4282b689c 698116 nginx-extras_1.14.1-2_amd64.deb
+ 7b286e787a742c622b476fbf9f6a61ed9b384435 1594216 nginx-full-dbgsym_1.14.1-2_amd64.deb
+ 77cb4caf2615d06033d51fb0cf13a45c3c3e1c1c 679932 nginx-full_1.14.1-2_amd64.deb
+ 034b1219116e6e9672cd04ba44e680f98c12e1db 1441852 nginx-light-dbgsym_1.14.1-2_amd64.deb
+ bd1b5db1219e5997f29104edb3579d8343e98aec 643088 nginx-light_1.14.1-2_amd64.deb
+ 66a8451037c52118326bd3084d770a23d0fd1f0d 87696 nginx_1.14.1-2_all.deb
+ f27fe4501429a9325a2848129174ea5a7229063c 22362 nginx_1.14.1-2_amd64.buildinfo
+Checksums-Sha256:
+ 5a3c87b770c8ae1399f2cb3d784e39ab936fb44017466b8cdb66d1734ea2c27d 28752 libnginx-mod-http-auth-pam-dbgsym_1.14.1-2_amd64.deb
+ b0329f4e6474b5b455dd72f3ee9556f1b1dc25e10762cdacd83e5ac070316fc7 110952 libnginx-mod-http-auth-pam_1.14.1-2_amd64.deb
+ 9a30add25fafeb25c1114307f4de9ebb2741a13ebf9b2c1e402001e2ec4712d2 32968 libnginx-mod-http-cache-purge-dbgsym_1.14.1-2_amd64.deb
+ f2de2bb0ca848b0b1f04311ae9f1e11a68be9a90fb24987020d9ff549118b942 110072 libnginx-mod-http-cache-purge_1.14.1-2_amd64.deb
+ 22c5b2e3cefbb7f504c90a8a5660f981ffe9f7b3f818410f1cfb71228ce32309 31348 libnginx-mod-http-dav-ext-dbgsym_1.14.1-2_amd64.deb
+ 3c73215fa69fd9a8a5d99577e675d6d9f7f2ad5a9018acf95f07f25584768f8d 108140 libnginx-mod-http-dav-ext_1.14.1-2_amd64.deb
+ 862970846bf8115fc777de855728f772d005ed354579cad420d3e987ab5f1f88 136408 libnginx-mod-http-echo-dbgsym_1.14.1-2_amd64.deb
+ 45f9abb88ebf5ee633ab4c735ae2821b4cebdbc823b53d2faa49a8b55f54c82a 126752 libnginx-mod-http-echo_1.14.1-2_amd64.deb
+ 5b5a7a5da343fd70def4cd011f86216a38f5897c67daf1f212fd2b4a8e123a84 32924 libnginx-mod-http-fancyindex-dbgsym_1.14.1-2_amd64.deb
+ 5ad42de4417ef78ac057a11a9bfc47d3fb95b48834dc3b6b75ca4cbbbd10d6ed 112204 libnginx-mod-http-fancyindex_1.14.1-2_amd64.deb
+ 3dcfc1da6c47d34680057631da862bf0bad5217067e7b223123657d3f0d5d60b 29972 libnginx-mod-http-geoip-dbgsym_1.14.1-2_amd64.deb
+ 17eb0dae3d561c2075890a00384ce14fc278bee0e5a4f193e42d0ff2cad3b34e 107404 libnginx-mod-http-geoip_1.14.1-2_amd64.deb
+ 1461588663d2b2db6b74b5c68c1a1dc92e056b3b4559f712f2fa073e9b6f41ec 58312 libnginx-mod-http-headers-more-filter-dbgsym_1.14.1-2_amd64.deb
+ aba9f9474cb811d974026a63a3f9d292be45f3a059f1105d0157bb490d68039e 116220 libnginx-mod-http-headers-more-filter_1.14.1-2_amd64.deb
+ c1399b646ee8437496f090f3766d05fe1ffc7ff68d691996b05aa9610bc912c4 32560 libnginx-mod-http-image-filter-dbgsym_1.14.1-2_amd64.deb
+ 32a4dfe1e042c1fa5c344fea9bde858819be3422aa244723014191a5babdfc55 110840 libnginx-mod-http-image-filter_1.14.1-2_amd64.deb
+ 6dd4995ef952b5feaa4c90d381706ce031310673e654782ff563d3f53c768cde 732880 libnginx-mod-http-lua-dbgsym_1.14.1-2_amd64.deb
+ 6458eaabf66746c311061dd18a35bfa836dc3fc5800e4038f3464b62f2c6e9f5 298980 libnginx-mod-http-lua_1.14.1-2_amd64.deb
+ 8ad55c3be672d102d750f544a9731acac527b4055c2149ac64dca0e7be43ef38 30016 libnginx-mod-http-ndk-dbgsym_1.14.1-2_amd64.deb
+ 9596cd7ab68aa7ac5729bed65adf75306e68b7c3ae26eb9e4988964ddc33378b 93488 libnginx-mod-http-ndk_1.14.1-2_amd64.deb
+ 0e41378c7c444b5fe80281c0cf25fda2059c79702f90668ec3bed1765f7d0cb3 118468 libnginx-mod-http-perl-dbgsym_1.14.1-2_amd64.deb
+ 05ca445a0aad54d693b45369493587de5f6fada20ac9d2075101d7b165373d84 119836 libnginx-mod-http-perl_1.14.1-2_amd64.deb
+ ddb45252962bc0c287695d6b41c111829cf6d5f5f7a7ca7fa099e9400d02ffa2 32472 libnginx-mod-http-subs-filter-dbgsym_1.14.1-2_amd64.deb
+ e853c78c465a8443ff9fea045082592a289bda7d3aefff363af6fe029217a547 111016 libnginx-mod-http-subs-filter_1.14.1-2_amd64.deb
+ 5b0d01e9d1d499040ac80260ca50643bced1caf25633a0d1f60ab1c826229202 36280 libnginx-mod-http-uploadprogress-dbgsym_1.14.1-2_amd64.deb
+ 5a8b1a92c2a2caf10ef7a30f154ea5c661bcd54e881f158a26c8464c9b8880cf 114456 libnginx-mod-http-uploadprogress_1.14.1-2_amd64.deb
+ 8cf1bc1201b9d0ebd7c011e903db6f213d8033c303ef67e35e2d6fb9a6f91222 31308 libnginx-mod-http-upstream-fair-dbgsym_1.14.1-2_amd64.deb
+ a819827afa67ecfa979292065c7a570b985008bc14b5bb5c096ee37f724dab5f 96320 libnginx-mod-http-upstream-fair_1.14.1-2_amd64.deb
+ b1c59e16e9eafda8affedaf8dcd49e114ac0b5103d8e8c0a27fef635c6a15d1f 42404 libnginx-mod-http-xslt-filter-dbgsym_1.14.1-2_amd64.deb
+ 0367f158ff5419e16f6dde333a7dd37a3e18c26c70555633335cc283f61426a0 96792 libnginx-mod-http-xslt-filter_1.14.1-2_amd64.deb
+ 04de938343682e786e8e21c573d0b1d88ea773814a8b8cc0461f0998520c48e7 92096 libnginx-mod-mail-dbgsym_1.14.1-2_amd64.deb
+ b127a765de294ca31bd0a50af384debc6b1858803cb3f8c81adcee70aa18161b 143332 libnginx-mod-mail_1.14.1-2_amd64.deb
+ 9001c02d68925871717221059f9f993e6528319aed41ac761fb6dddea91e215c 641640 libnginx-mod-nchan-dbgsym_1.14.1-2_amd64.deb
+ 045d3d22734db0972b67a771466929d7cc067450a0be838bf1fec97992e9c6ba 305936 libnginx-mod-nchan_1.14.1-2_amd64.deb
+ 99c0a4d12a08fb2f543c2e70eb9a2b3053fd5938106bc54c5805ed37a265c4a5 282672 libnginx-mod-rtmp-dbgsym_1.14.1-2_amd64.deb
+ fbb5ca67952d88320f816529ec1f7f60adebc9d09678022142d5377353c1dfab 256520 libnginx-mod-rtmp_1.14.1-2_amd64.deb
+ 32b510e8414a6018933b042aeb3d4092ef78d326e3116eab83d3be59c80dfacb 161548 libnginx-mod-stream-dbgsym_1.14.1-2_amd64.deb
+ 6d11cea42e7d8f192117302dedded5f07b477d7f3793ebea8f196b657c2d93eb 180688 libnginx-mod-stream_1.14.1-2_amd64.deb
+ 16074f3c27399d621321a1c5ce723d310334a4157e997daf73470f681c0b2eea 119860 nginx-common_1.14.1-2_all.deb
+ 0301ebc21999bb5e65e5bfccc04825161a9cee7016890247c5325528810d5564 87676 nginx-doc_1.14.1-2_all.deb
+ a4e6e9ee7f750ae697dadf5298234e2e7451bcaa34353974f9de86286de09fa2 1655436 nginx-extras-dbgsym_1.14.1-2_amd64.deb
+ 72d1b8f11447fd032f77c8f33c71dbd8c8adc60b579cf01e9ccc13f5a206617e 698116 nginx-extras_1.14.1-2_amd64.deb
+ cbfd713339c4d5728e0ad282464b6957943ff864a046f0017aa1eadc18007464 1594216 nginx-full-dbgsym_1.14.1-2_amd64.deb
+ 184a99d33b124d5236db399019c796180e5e2f55f8e06b598ac3fe2480043888 679932 nginx-full_1.14.1-2_amd64.deb
+ a3f161b736d7b0f38d08adfcdebd812d66d3bfbee42f854e3db435c2c32c40f7 1441852 nginx-light-dbgsym_1.14.1-2_amd64.deb
+ abc0e538a1b5dc510cd6a403b9680410fbd5094e50674ed94561c807f216e640 643088 nginx-light_1.14.1-2_amd64.deb
+ c28ab10860a802c00db258f5a845c1e7d9d8525dd36600482389421f7ab3c83a 87696 nginx_1.14.1-2_all.deb
+ 49b753d85bf8007d02cfc66697f7c0b6dbc6bc6e7c38c60f245458c6c60ece54 22362 nginx_1.14.1-2_amd64.buildinfo
+Files:
+ 52cfd49add913d2f5514cfaa3189def8 28752 debug optional libnginx-mod-http-auth-pam-dbgsym_1.14.1-2_amd64.deb
+ 95ecdf4a450b59f951aba4f084f81c28 110952 httpd optional libnginx-mod-http-auth-pam_1.14.1-2_amd64.deb
+ aae1ef52c6c2d16a3d9182a4304e3226 32968 debug optional libnginx-mod-http-cache-purge-dbgsym_1.14.1-2_amd64.deb
+ 1f9a0c7e7fe2045b3f9f27bd54b78020 110072 httpd optional libnginx-mod-http-cache-purge_1.14.1-2_amd64.deb
+ 86c11a6d395f637ce252c39afa6993e1 31348 debug optional libnginx-mod-http-dav-ext-dbgsym_1.14.1-2_amd64.deb
+ 8b56f15efbf004bc323144bd463d4f27 108140 httpd optional libnginx-mod-http-dav-ext_1.14.1-2_amd64.deb
+ 85b747a361366e4a5134bb10cf886adc 136408 debug optional libnginx-mod-http-echo-dbgsym_1.14.1-2_amd64.deb
+ fe3a19d8e4a744ed0668038bec6c1682 126752 httpd optional libnginx-mod-http-echo_1.14.1-2_amd64.deb
+ aeaace82eb930e545c7411658eeacd99 32924 debug optional libnginx-mod-http-fancyindex-dbgsym_1.14.1-2_amd64.deb
+ ace044ca7e55bd705f2459c9388a1046 112204 httpd optional libnginx-mod-http-fancyindex_1.14.1-2_amd64.deb
+ 9f77b32fda50af0acd3a95e89f078cf7 29972 debug optional libnginx-mod-http-geoip-dbgsym_1.14.1-2_amd64.deb
+ 613b179a6695fee1fdf021cd5c5f2c5d 107404 httpd optional libnginx-mod-http-geoip_1.14.1-2_amd64.deb
+ ae079e7c692d60268b11fe2b0cd39a44 58312 debug optional libnginx-mod-http-headers-more-filter-dbgsym_1.14.1-2_amd64.deb
+ 98f73fa8a81c40405f1241fa34fd814f 116220 httpd optional libnginx-mod-http-headers-more-filter_1.14.1-2_amd64.deb
+ 5b24738048824b6c73ab3731ed90be46 32560 debug optional libnginx-mod-http-image-filter-dbgsym_1.14.1-2_amd64.deb
+ 3c0476ba02e08558216732e49eed011b 110840 httpd optional libnginx-mod-http-image-filter_1.14.1-2_amd64.deb
+ cda0b432ed6685fb0deac3b1d99d413b 732880 debug optional libnginx-mod-http-lua-dbgsym_1.14.1-2_amd64.deb
+ 2a1663b4fb88ba301148b36a7dd865dd 298980 httpd optional libnginx-mod-http-lua_1.14.1-2_amd64.deb
+ 4c120226b17c3abd225d83cdedd63d9a 30016 debug optional libnginx-mod-http-ndk-dbgsym_1.14.1-2_amd64.deb
+ b5f445fb5f47ed2dd2edd52588af2c28 93488 httpd optional libnginx-mod-http-ndk_1.14.1-2_amd64.deb
+ 0fa8cde0dc2659a2299d43c9b579e685 118468 debug optional libnginx-mod-http-perl-dbgsym_1.14.1-2_amd64.deb
+ 690e5fa84a09085a89c376b00ec3d158 119836 httpd optional libnginx-mod-http-perl_1.14.1-2_amd64.deb
+ 2793f8850fc86fdd1c9a2d350dacd345 32472 debug optional libnginx-mod-http-subs-filter-dbgsym_1.14.1-2_amd64.deb
+ fafe2cae38358edad0ef9add4a590f8f 111016 httpd optional libnginx-mod-http-subs-filter_1.14.1-2_amd64.deb
+ 3b334fe38b75fe99ba10f06b8510dfa7 36280 debug optional libnginx-mod-http-uploadprogress-dbgsym_1.14.1-2_amd64.deb
+ 9850644cfb7e01a1dd8611968d7d05d9 114456 httpd optional libnginx-mod-http-uploadprogress_1.14.1-2_amd64.deb
+ 57663c6283f1be2d3053da8274cda82d 31308 debug optional libnginx-mod-http-upstream-fair-dbgsym_1.14.1-2_amd64.deb
+ 46e6699136d86d8020f733c9efb15e99 96320 httpd optional libnginx-mod-http-upstream-fair_1.14.1-2_amd64.deb
+ dff8617156a79815ec64a4d009965e54 42404 debug optional libnginx-mod-http-xslt-filter-dbgsym_1.14.1-2_amd64.deb
+ 01672d9e6349481dcc1522eabd8eeec7 96792 httpd optional libnginx-mod-http-xslt-filter_1.14.1-2_amd64.deb
+ 51be6c8e50582b9483124ac1d72652c0 92096 debug optional libnginx-mod-mail-dbgsym_1.14.1-2_amd64.deb
+ 566bf0fbdee516969fb84d533933c122 143332 httpd optional libnginx-mod-mail_1.14.1-2_amd64.deb
+ 8ce2e54fedda5e05007ab66705e0edd2 641640 debug optional libnginx-mod-nchan-dbgsym_1.14.1-2_amd64.deb
+ 1feabd197243b7f32303d1deef98d523 305936 httpd optional libnginx-mod-nchan_1.14.1-2_amd64.deb
+ e50e0cf47d161cda0318fab6de4b5c52 282672 debug optional libnginx-mod-rtmp-dbgsym_1.14.1-2_amd64.deb
+ ea7b88b422f3b12ba975cd10702a11c3 256520 httpd optional libnginx-mod-rtmp_1.14.1-2_amd64.deb
+ 2497d0359dfc07d5916bdefd8d687643 161548 debug optional libnginx-mod-stream-dbgsym_1.14.1-2_amd64.deb
+ b909c438200688e7d2777c48f3f175ba 180688 httpd optional libnginx-mod-stream_1.14.1-2_amd64.deb
+ a0ae3d846440a941736e3303adbadd50 119860 httpd optional nginx-common_1.14.1-2_all.deb
+ 2c10da72bffdb4800accf42ee989a21a 87676 doc optional nginx-doc_1.14.1-2_all.deb
+ 15fda35809dcf3fb047d2ea6ee219e04 1655436 debug optional nginx-extras-dbgsym_1.14.1-2_amd64.deb
+ 1bd572f1d876252e06479c9e9e79f648 698116 httpd optional nginx-extras_1.14.1-2_amd64.deb
+ 4868d28a8c7fb87961f41a507a4fa847 1594216 debug optional nginx-full-dbgsym_1.14.1-2_amd64.deb
+ 814f1535ac9ff395b96b1d5e0e5673d7 679932 httpd optional nginx-full_1.14.1-2_amd64.deb
+ 0a026675ea30de38addcedeec9e31f8a 1441852 debug optional nginx-light-dbgsym_1.14.1-2_amd64.deb
+ cf96190a0b0f5d7ee7858bd8b0ec1787 643088 httpd optional nginx-light_1.14.1-2_amd64.deb
+ e92c67033537b5b46e8f16c29135c348 87696 httpd optional nginx_1.14.1-2_all.deb
+ cd446b520dfa28cee90456ca448662b1 22362 httpd optional nginx_1.14.1-2_amd64.buildinfo

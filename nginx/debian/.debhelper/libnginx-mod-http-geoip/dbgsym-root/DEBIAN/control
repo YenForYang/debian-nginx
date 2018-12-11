@@ -1,0 +1,12 @@
+Package: libnginx-mod-http-geoip-dbgsym
+Source: nginx
+Version: 1.14.1-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 47
+Depends: libnginx-mod-http-geoip (= 1.14.1-2)
+Section: debug
+Priority: optional
+Description: debug symbols for libnginx-mod-http-geoip
+Build-Ids: 54252b65e4ae9f993c610e4327b18a4fea5d1db4

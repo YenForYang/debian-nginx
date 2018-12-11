@@ -1,0 +1,5 @@
+5580d087bd7e7f0142169534e985fce5  usr/lib/nginx/modules/ngx_http_cache_purge_module.so
+43a55000133f63fc02805d1f30121878  usr/share/doc/libnginx-mod-http-cache-purge/changelog.Debian.gz
+623a9d98ebd7b9bf39f6b5da8b84f1b4  usr/share/doc/libnginx-mod-http-cache-purge/changelog.gz
+f89bef9fa1d22af419e5154ad3966930  usr/share/doc/libnginx-mod-http-cache-purge/copyright
+70e1640848649ce4b8c26a7f68f4c23c  usr/share/nginx/modules-available/mod-http-cache-purge.conf

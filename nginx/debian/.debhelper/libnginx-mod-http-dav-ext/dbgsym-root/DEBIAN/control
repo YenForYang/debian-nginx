@@ -1,0 +1,12 @@
+Package: libnginx-mod-http-dav-ext-dbgsym
+Source: nginx
+Version: 1.14.1-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 48
+Depends: libnginx-mod-http-dav-ext (= 1.14.1-2)
+Section: debug
+Priority: optional
+Description: debug symbols for libnginx-mod-http-dav-ext
+Build-Ids: d357bec2b216be1bd0aa6393dc8d9ec4d1d1de20

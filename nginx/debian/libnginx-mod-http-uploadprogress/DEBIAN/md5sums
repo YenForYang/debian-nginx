@@ -1,0 +1,5 @@
+1dfe016c72658acb571ba9884568b48e  usr/lib/nginx/modules/ngx_http_uploadprogress_module.so
+43a55000133f63fc02805d1f30121878  usr/share/doc/libnginx-mod-http-uploadprogress/changelog.Debian.gz
+623a9d98ebd7b9bf39f6b5da8b84f1b4  usr/share/doc/libnginx-mod-http-uploadprogress/changelog.gz
+f89bef9fa1d22af419e5154ad3966930  usr/share/doc/libnginx-mod-http-uploadprogress/copyright
+6ac86df40d92b901d0d65073b9709ae8  usr/share/nginx/modules-available/mod-http-uploadprogress.conf

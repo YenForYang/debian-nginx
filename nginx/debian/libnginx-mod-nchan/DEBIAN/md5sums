@@ -1,0 +1,5 @@
+19b822f0fcf00c7f872c3e8c9747796e  usr/lib/nginx/modules/ngx_nchan_module.so
+43a55000133f63fc02805d1f30121878  usr/share/doc/libnginx-mod-nchan/changelog.Debian.gz
+623a9d98ebd7b9bf39f6b5da8b84f1b4  usr/share/doc/libnginx-mod-nchan/changelog.gz
+f89bef9fa1d22af419e5154ad3966930  usr/share/doc/libnginx-mod-nchan/copyright
+bc3c354a63cab56b0fca6efd5b712c8e  usr/share/nginx/modules-available/mod-nchan.conf

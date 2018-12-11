@@ -1,0 +1,8 @@
+./debian/help/examples/drupal
+./debian/help/examples/http
+./debian/help/examples/mail
+./debian/help/examples/mailman
+./debian/help/examples/nginx.conf
+./debian/help/examples/nginx_modsite
+./debian/help/examples/virtual_hosts
+./debian/help/examples/wordpress

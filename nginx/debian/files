@@ -1,0 +1,48 @@
+libnginx-mod-http-auth-pam-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-auth-pam_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-cache-purge-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-cache-purge_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-dav-ext-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-dav-ext_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-echo-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-echo_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-fancyindex-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-fancyindex_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-geoip-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-geoip_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-headers-more-filter-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-headers-more-filter_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-image-filter-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-image-filter_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-lua-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-lua_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-ndk-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-ndk_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-perl-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-perl_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-subs-filter-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-subs-filter_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-uploadprogress-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-uploadprogress_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-upstream-fair-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-upstream-fair_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-http-xslt-filter-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-http-xslt-filter_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-mail-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-mail_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-nchan-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-nchan_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-rtmp-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-rtmp_1.14.1-2_amd64.deb httpd optional
+libnginx-mod-stream-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+libnginx-mod-stream_1.14.1-2_amd64.deb httpd optional
+nginx-common_1.14.1-2_all.deb httpd optional
+nginx-doc_1.14.1-2_all.deb doc optional
+nginx-extras-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+nginx-extras_1.14.1-2_amd64.deb httpd optional
+nginx-full-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+nginx-full_1.14.1-2_amd64.deb httpd optional
+nginx-light-dbgsym_1.14.1-2_amd64.deb debug optional automatic=yes
+nginx-light_1.14.1-2_amd64.deb httpd optional
+nginx_1.14.1-2_all.deb httpd optional
+nginx_1.14.1-2_amd64.buildinfo httpd optional

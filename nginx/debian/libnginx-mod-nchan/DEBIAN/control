@@ -1,0 +1,19 @@
+Package: libnginx-mod-nchan
+Source: nginx
+Version: 1.14.1-2
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 825
+Depends: nginx-common (= 1.14.1-2), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libhiredis0.14 (>= 0.14.0)
+Section: httpd
+Priority: optional
+Homepage: https://nginx.net
+Description: Fast, flexible pub/sub server for Nginx
+ Nchan is a scalable, flexible pub/sub server for the modern web, It can be
+ configured as a standalone server, or as a shim between your application and
+ tens, thousands, or millions of live subscribers. It can buffer messages in
+ memory, on-disk, or via Redis. All connections are handled asynchronously and
+ distributed among any number of worker processes. It can also scale to many
+ nginx server instances with Redis.
+ .
+ Full documentation available at https://nchan.slact.net
